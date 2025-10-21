@@ -1,0 +1,16 @@
+server:
+  port: 8085
+
+spring:
+  application :
+    name : org-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/orgdb
+    username: postgres
+    password: postgres
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: DEBUG
