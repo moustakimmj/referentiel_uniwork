@@ -1,5 +1,7 @@
 server:
   port: 8082
+chat:
+  title: "Chat service config from Git"
 
 spring:
   application:
